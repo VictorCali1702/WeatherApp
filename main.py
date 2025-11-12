@@ -37,4 +37,14 @@ def get_weather(city):
 		print("Could not find information about temperature.")
 	except ValueError:
 		print("Error processing JSON response")
-		
+
+def enter_city():
+	city = input("Enter your city to check the weather: ")
+	get_weather(city)
+
+while True:
+	enter_city()
+	again = input("Check another city? (yes/no): ").lower()
+	if again != 'yes':
+		print("\nThanks for checking the weather! ☀️")
+		break
