@@ -1,0 +1,10 @@
+Weather for Frankfurt am main:
+Temperature: 6°C (Perceived temperature 5°C)
+Humidity: 91%
+Wind: 6 km/h
+Weather: Overcast 
+
+The Weather Forecast for the next 3 days:
+📅 2025-11-12: Sunny | 🌡️ 6°C - 13°C (average 9°C)
+📅 2025-11-13: Sunny | 🌡️ 8°C - 15°C (average 11°C)
+📅 2025-11-14: Sunny | 🌡️ 9°C - 15°C (average 11°C)

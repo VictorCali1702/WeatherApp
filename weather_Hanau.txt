@@ -1,0 +1,10 @@
+Weather for Hanau:
+Temperature: 5°C (Perceived temperature 4)°C
+Humidity: 100%
+Wind: 6 km/h
+Weather: Overcast 
+
+The Weather Forecast for the next 3 days:
+📅 2025-11-12: Sunny | 🌡️ 6°C - 15°C (average 9°C)
+📅 2025-11-13: Sunny | 🌡️ 7°C - 16°C (average 11°C)
+📅 2025-11-14: Sunny | 🌡️ 9°C - 16°C (average 11°C)

@@ -1,0 +1,10 @@
+Weather for Warsaw:
+🌡️ Temperature: 5°C (Perceived temperature 3°C)
+💧 Humidity: 100%
+💨 Wind: 10 km/h
+🌦️ Weather: Mist 
+
+📅 The Weather Forecast for the next 3 days:
+📅 2025-11-12: Sunny | 🌡️ 7°C - 10°C (average 8°C)
+📅 2025-11-13: Sunny | 🌡️ 7°C - 12°C (average 9°C)
+📅 2025-11-14: Overcast  | 🌡️ 9°C - 12°C (average 10°C)

@@ -1,0 +1,10 @@
+Weather for Tczew:
+🌡️ Temperature: 9°C (Perceived temperature 6°C)
+💧 Humidity: 87%
+💨 Wind: 22 km/h
+🌦️ Weather: Clear 
+
+📅 The Weather Forecast for the next 3 days:
+📅 2025-11-12: Partly Cloudy  | 🌡️ 7°C - 11°C (average 8°C)
+📅 2025-11-13: Partly Cloudy  | 🌡️ 7°C - 13°C (average 9°C)
+📅 2025-11-14: Light drizzle | 🌡️ 7°C - 11°C (average 10°C)
