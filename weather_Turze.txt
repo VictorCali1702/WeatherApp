@@ -1,0 +1,10 @@
+Weather for Turze:
+🌡️ Temperature: 11°C (Perceived temperature 9°C)
+💧 Humidity: 82%
+💨 Wind: 22 km/h
+🌦️ Weather: Partly cloudy ☁️
+
+📅 The Weather Forecast for the next 3 days:
+📅 2025-11-13: Sunny | 🌡️ 6°C - 12°C (average 9°C)
+📅 2025-11-14: Light rain shower | 🌡️ 7°C - 11°C (average 10°C)
+📅 2025-11-15: Patchy rain nearby | 🌡️ 1°C - 7°C (average 5°C)

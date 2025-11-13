@@ -1,0 +1,10 @@
+Weather for San diego:
+🌡️ Temperature: 21°C (Perceived temperature 21°C)
+💧 Humidity: 66%
+💨 Wind: 10 km/h
+🌦️ Weather: Haze 
+
+📅 The Weather Forecast for the next 3 days:
+📅 2025-11-13: Cloudy  | 🌡️ 15°C - 20°C (average 18°C)
+📅 2025-11-14: Overcast  | 🌡️ 16°C - 20°C (average 18°C)
+📅 2025-11-15: Thundery outbreaks in nearby | 🌡️ 16°C - 18°C (average 17°C)

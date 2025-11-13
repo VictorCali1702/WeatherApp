@@ -1,0 +1,10 @@
+Weather for Rome:
+🌡️ Temperature: 13°C (Perceived temperature 13°C)
+💧 Humidity: 94%
+💨 Wind: 4 km/h
+🌦️ Weather: Clear 
+
+📅 The Weather Forecast for the next 3 days:
+📅 2025-11-13: Sunny | 🌡️ 11°C - 20°C (average 14°C)
+📅 2025-11-14: Partly Cloudy  | 🌡️ 11°C - 20°C (average 15°C)
+📅 2025-11-15: Patchy rain nearby | 🌡️ 12°C - 19°C (average 15°C)

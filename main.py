@@ -73,7 +73,9 @@ def get_weather(city):
 				f.write(f'📅 {date}: {desc_day} | 🌡️ {min_temp}°C - {max_temp}°C (average {avg_temp}°C)\n')
 
 		print(f'📁 The report was saved to: {filename}')
-
+		
+		# === Drawing charts ===
+		plot_weather(data, city)
 
 	except requests.exceptions.RequestException as e:
 		print("Error connecting to API:", e)	
@@ -88,7 +90,7 @@ def plot_weather(data, city):
 	days = [d['date'] for d in data['weather'][:3]]
 	min_temps = [int(d['mintempC']) for d in data['weather'][:3]]
 	max_temps = [int(d['maxtempC']) for d in data['weather'][:3]]
-	avg_temps = [int(d['abgtempC']) for d in data['weather'][:3]]
+	avg_temps = [int(d['avgtempC']) for d in data['weather'][:3]]
 
 	# --- Humidity and wind (avg daily)
 	avg_humidity = [sum(int(h['humidity']) for h in d['hourly']) // len(d['hourly']) for d in data['weather'][:3]]
@@ -105,7 +107,9 @@ def plot_weather(data, city):
 	plt.legend()
 	plt.grid(True)
 	plt.tight_layout()
+	plt.savefig(f'{city}_temperature.png')
 	plt.show()
+	plt.close()
 
 	# --- Humidity chart ---
 	plt.figure(figsize=(8, 5))
@@ -114,7 +118,9 @@ def plot_weather(data, city):
 	plt.xlabel("Day")
 	plt.ylabel("Humidity (%)")
 	plt.tight_layout()
+	plt.savefig(f'{city}_humidity.png')
 	plt.show()
+	plt.close()
 
 	# --- Wind's speed chart ---
 	plt.figure(figsize=(8, 5))
@@ -123,7 +129,9 @@ def plot_weather(data, city):
 	plt.xlabel('Day')
 	plt.ylabel('Wind (km/h)')
 	plt.tight_layout()
+	plt.savefig(f'{city}_wind.png')
 	plt.show()
+	plt.close()
 
 # Interactive Menu
 def menu():

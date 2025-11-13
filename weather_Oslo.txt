@@ -1,0 +1,10 @@
+Weather for Oslo:
+🌡️ Temperature: 0°C (Perceived temperature -1°C)
+💧 Humidity: 64%
+💨 Wind: 5 km/h
+🌦️ Weather: Clear 
+
+📅 The Weather Forecast for the next 3 days:
+📅 2025-11-13: Partly Cloudy  | 🌡️ 1°C - 8°C (average 6°C)
+📅 2025-11-14: Sunny | 🌡️ -0°C - 4°C (average 1°C)
+📅 2025-11-15: Sunny | 🌡️ -1°C - 2°C (average -0°C)
