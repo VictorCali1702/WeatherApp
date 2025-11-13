@@ -1,5 +1,6 @@
 import requests
 import os
+import matplotlib.pyplot as plt
 
 def get_weather(city):
 	try:
@@ -81,6 +82,19 @@ def get_weather(city):
 	except ValueError:
 		print("Error processing JSON response")
 
+# Matplotlib def function
+def plot_weather(data, city):
+	# --- Data for the weather forecast (next 3 days) ---
+	days = [d['date'] for d in data['weather'][:3]]
+	min_temps = [int(d['mintempC']) for d in data['weather'][:3]]
+	max_temps = [int(d['maxtempC']) for d in data['weather'][:3]]
+	avg_temps = [int(d['abgtempC']) for d in data['weather'][:3]]
+
+	# --- Humidity and wind (avg daily)
+	avg_humidity = [sum(int(h['humidity']) for h in d['hourly']) // len(d['hourly']) for d in data['weather'][:3]]
+	avg_wind = [sum(int(h['windspeedKmph']) for h in d['hourly']) // len(d['hourly']) for d in data['weather'][:3]]
+
+	
 # Interactive Menu
 def menu():
 	while True:
