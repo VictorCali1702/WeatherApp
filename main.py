@@ -108,6 +108,22 @@ def plot_weather(data, city):
 	plt.show()
 
 	# --- Humidity chart ---
+	plt.figure(figsize=(8, 5))
+	plt.bar(days, avg_humidity, color = 'skyblue')
+	plt.title(f'Average Humidity for {city.capitalize()}')
+	plt.xlabel("Day")
+	plt.ylabel("Humidity (%)")
+	plt.tight_layout()
+	plt.show()
+
+	# --- Wind's speed chart ---
+	plt.figure(figsize=(8, 5))
+	plt.bar(days, avg_wind, color='orange')
+	plt.title(f'Average wind speed for {city.capitalize()}')
+	plt.xlabel('Day')
+	plt.ylabel('Wind (km/h)')
+	plt.tight_layout()
+	plt.show()
 
 # Interactive Menu
 def menu():
